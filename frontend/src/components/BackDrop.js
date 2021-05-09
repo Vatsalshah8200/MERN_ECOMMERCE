@@ -1,4 +1,4 @@
-import "./Backdrop.css";
+import "./BackDrop.css";
 
 const Backdrop = ({ click, show }) => {
   return show && <div className="backdrop" onClick={click}></div>;
